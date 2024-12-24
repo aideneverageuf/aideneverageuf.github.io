@@ -1,6 +1,6 @@
 body{
     background-color: white;
-    font-family: Segoe UI, Arial;
+    font-family: Segoe UI;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,8 +17,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000a91;
-  color: white;
+  background-color: #83bdff;
+  color: hsl(0, 100%, 96%);
   padding-top: 0rem;
 }
 
@@ -54,8 +54,8 @@ header {
 .theme-container {
     display: flex;
     justify-content: end;
-    background-color: #000a91;
-    color: white;
+    background-color: #83bdff;
+    color: rgb(0, 0, 0);
     padding-bottom: 2rem;
     padding-right: 3rem;
 }
@@ -70,13 +70,63 @@ section {
     margin: 0 auto;
 }
 
+.about {
+    text-align: center;
+}
+  
+.about h2 {
+    text-align: left;
+  }
+  
+.about hr {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+  
+.intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    margin-top: 20px;
+    size: 2rem;
+}
+  
+.profile-img {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
+.intro-content p {
+    max-width: 600px;
+    text-align: left;
+    font-size: 16px;
+}
+  
+
 .projects {
     margin-bottom: 0rem;
 }
 
+.education {
+  background-color: #83bdff;
+  color: hsl(0, 100%, 96%);
+  padding-bottom: 2rem;
+}
+
+.education hr {
+  border: 1px solid hsl(0, 100%, 96%);
+}
+
+.projects h2 {
+  margin-top: 16px;
+}
+
 .minesweeper {
     margin-bottom: 0rem;
-    padding-bottom: 0rem;
+    padding-bottom: 0.5rem;
 }
 
 .project {
@@ -85,4 +135,15 @@ section {
 
 .descriptions{
     font-size: 14px;
+}
+
+.contact {
+  margin-top: 0;
+  padding-top: 0.5rem;
+  background-color: #83bdff;
+  color: hsl(0, 100%, 96%);
+}
+
+.contact hr {
+  border: 1px solid hsl(0, 100%, 96%);
 }
