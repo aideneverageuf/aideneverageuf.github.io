@@ -1,127 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="svg" href="/initialsLogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aiden Everage - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body>
-    <header>
-      <div class="header-content">
-        <div class="header-text">
-          <h1>Aiden Everage</h1>
-          <div class="header-subtitle">
-            <span><i class="fas fa-user"></i> He/Him</span>
-            <span><i class="fas fa-map-marker-alt"></i> Gainesville, Florida</span>
-          </div>
-          <div class="header-subtitle">
-            <span><i class="fas fa-graduation-cap"></i> Sophomore</span>
-            <span><i class="fas fa-laptop-code"></i> Computer Engineering Major</span>
-          </div>
-        </div>
-      </div>
-    </header>
-    
-    <main class="container">
-      <section id="intro" class="about card">
-        <h2><i class="fas fa-user"></i> About Me</h2>
-        <div class="intro-content">
-          <img src="static/bodyshotraw.JPG" alt="Aiden Everage" class="profile-img">
-          <div class="intro-text">
-            <p>
-              Hello! I am Aiden Everage, a computer engineering major at the University of Florida.
-              I'm interested in hardware and full-stack development. I have experience in Python, C++,
-              React, HTML/CSS, JavaScript, JSX, TypeScript, ARM Programming, and PyTorch. I have gained experience from creating
-              a pathfinding program to help students find classes, a program to suggest books to a user, and a website for
-              students to track and set goals for their own fitness. I am continuing to grow my knowledge of computers through Hackathons
-              and learning new APIs/Frameworks that are applicable to the industry.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="education" class="education card">
-        <h2><i class="fas fa-university"></i> Education</h2>
-        <div class="education-content">
-          <p class="university">University of Florida | Computer Engineering | Second Year</p>
-          <div class="skills-section">
-            <h3>Technical Skills</h3>
-            <div class="skills-grid">
-              <div class="skill-item"><i class="fas fa-code"></i> C++</div>
-              <div class="skill-item"><i class="fab fa-python"></i> Python</div>
-              <div class="skill-item"><i class="fab fa-html5"></i> HTML/CSS</div>
-              <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
-              <div class="skill-item"><i class="fab fa-react"></i> JSX</div>
-              <div class="skill-item"><i class="fas fa-code-branch"></i> TypeScript</div>
-              <div class="skill-item"><i class="fab fa-react"></i> React</div>
-              <div class="skill-item"><i class="fa-solid fa-fire-flame-curved"></i> PyTorch</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects" class="projects">
-        <h2><i class="fas fa-project-diagram"></i> My Projects</h2>
-        <div class="projects-grid">
-          <div class="project-card">
-            <h3>StayFit</h3>
-            <ul class="project-list">
-              <li>Utilized JavaScript, HTML, and CSS to create the frontend for a fitness tracking program with React</li>
-              <li>Worked with a team that created the backend for the site and helped them connect the database to the frontend code</li>  
-              <li>Used JSX functions to parse user inputs and see if they align with the requirements of the site as well as verify passwords</li>
-              <li class="project-link"><a href="https://github.com/saanjpatel/IntroSWEGroup3" target="_blank"><i class="fab fa-github"></i> GitHub Repository</a></li>
-            </ul>
-          </div>
-
-          <div class="project-card">
-            <h3>SwampRoute</h3>
-            <ul class="project-list">
-              <li>Utilized TypeScript, HTML, and CSS to create the frontend of a campus path finder with React Native and Expo Go</li>
-              <li>C++ and Python to create a script to log locations on UF Campus and then use the A* algorithm to find optimal paths</li>  
-              <li>Flask to route backend code and allow the user inputs to be accepted from the frontend and given to the C++ backend</li>
-              <li class="project-link"><a href="https://github.com/aideneverageuf/SwampRoute" target="_blank"><i class="fab fa-github"></i> GitHub Repository</a></li>
-            </ul>
-          </div>
-
-          <div class="project-card">
-            <h3>Portfolio</h3>
-            <ul class="project-list">
-              <li>Utilized HTML and CSS to create this website and portfolio to detail my projects and experiences</li>
-              <li class="project-link"><a href="https://github.com/aideneverageuf/aideneverageuf.github.io" target="_blank"><i class="fab fa-github"></i> GitHub Repository</a></li>
-            </ul>
-          </div>
-
-          <div class="project-card">
-            <h3>BookWorms</h3>
-            <ul class="project-list">
-              <li>Utilized both JavaScript and CSS to create the frontend of a book recommendation site with React</li>
-              <li>Used Flask to route my teammates code to the frontend and accept user inputs from the frontend</li>
-              <li class="project-link"><a href="https://github.com/MarcosLaserna/BookWormsProject" target="_blank"><i class="fab fa-github"></i> GitHub Repository</a></li>
-            </ul>
-          </div>
-
-          <div class="project-card">
-            <h3>Minesweeper</h3>
-            <ul class="project-list">
-              <li>Utilized object-oriented programming in C++ to create classes for individual parts of the game</li>
-              <li>Applied algorithms for random mine generation and recursive tile reveal</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="contact card">
-        <h2><i class="fas fa-envelope"></i> Contact Information</h2>
-        <div class="contact-links">
-          <a href="mailto:aideneverage@ufl.edu" class="contact-link"><i class="fas fa-envelope"></i> Email</a>
-          <a href="https://www.linkedin.com/in/aideneverage/" target="_blank" class="contact-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        </div>
-      </section>
-    </main>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
