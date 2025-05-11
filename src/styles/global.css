@@ -29,7 +29,7 @@ body {
 }
 
 header {
-  padding-top: 6rem;
+  padding-top: 8rem;
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: var(--text-light);
   text-align: center;
